@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <img src="logo.jpg" alt="logo.jpg" style="width: auto; height: 45px; position: absolute;">
+                <h2 class="logo">GLACIAL COFFEESHOP</h2>
+            </div>
+            <ul>
+                <li><a href="contact.html" >Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div class="pagebody">
+            <div class="sidebar">
+                Start your day with a glacial coffee, more motivation, and less laziness.
+            </div>
+            <div class="feeds">
+                <table style="padding: 10px; width: 100%;">
+                    <tr>
+                        <td width="200px"><img src="order1.jpg" alt="order1" style="width: 200px; height: 100%;"></td>
+                        <td style="padding: 10px">
+                            <h3>Original Taste</h3>
+                            <h4>P 55.00</h4>
+                            <input type="text" class="formField" style="width: 50%;" placeholder="Quantity..."><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="order2.jpg" alt="order2" style="width: 200px; height: 100%;"></td>
+                        <td style="padding: 10px">
+                            <h3>Caramel Machiato</h3>
+                            <h4>P 55.00</h4>
+                            <input type="text" class="formField" style="width: 50%;" placeholder="Quantity..."> <br><br>                            
+                        </td>
+                    </tr>
+                    <tr">
+                        <td></td>
+                        <td>
+                            <!-- <div id="message" style="float: right;"></div> -->
+                            <button style="width: 100px; padding: 10px;" onclick="buyNow()">Buy Now</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>  
+</body>
+<script>
+    function buyNow(){
+        alert("Thank you for your purchase!");
+        // document.getElementById('message').innerHTML = "Thank you for your purchase!";
+    }
+</script>
+</html>
